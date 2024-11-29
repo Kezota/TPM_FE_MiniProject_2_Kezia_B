@@ -132,6 +132,11 @@ body {
 
         span {
           font-size: 14px;
+
+          &.completed {
+            text-decoration: line-through;
+            color: var(--secondary-color);
+          }
         }
       }
 
